@@ -146,9 +146,26 @@ a:hover{
     padding: 124px 54px 72px 54px;
     box-sizing: border-box;
 }
+.recent-work{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recent-works-card{
+    margin: 20px;
+}
+.img-left{
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+.img-right{
+    float: right;
+    margin: 20px 0px 20px 20px;
+}
+.img-left-p, .img-right-p{
+    text-align: justify;
+}
 .row{
     overflow: auto;
-
 }
 .col2{
     width: 49%;
